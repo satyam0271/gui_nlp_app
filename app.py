@@ -178,8 +178,9 @@ class NLPApp:
     def sentiment_analysis(self):
         text = self.user_input.get("1.0", "end-1c")
         result = self.api_object.sentiment_analysis(text) 
+        print(result)
         result_list = []
-        for i in result["labels"]:
+        for i in result["scored_labels"]:
             result_list.append(i)
 
         self.result["text"] = result

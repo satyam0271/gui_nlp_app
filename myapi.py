@@ -1,8 +1,5 @@
 import nlpcloud
 
-# api_key = "b89d6a5c5778b2471f6077f2f2edc98abe28a7e6"
-# client = nlpcloud.Client("<model>", "<token>")
-
 
 class API:
 
